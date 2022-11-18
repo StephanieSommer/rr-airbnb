@@ -1,11 +1,10 @@
 import "./Main.css"
-import Headline from "../Components/Headline";
 import Card from "./Card";
 
 const Main = () => {
     return ( 
         <main>
-            <Headline />
+            <h1 className="Headline">Apartments for rent</h1>
             <Card />
         </main>
      );

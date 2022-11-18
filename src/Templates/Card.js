@@ -1,12 +1,16 @@
 import "./Card.css"
-import Bluebox from "../Components/Bluebox";
 import Image from "../Components/Image";
+import Icon from "../Components/Icon"
+import MoreBtn from "../Components/MoreBtn"
 
 const Card = () => {
     return ( 
         <article className="Card">
             <Image />
-            <Bluebox />
+                <div className="Bluebox">
+                    <Icon />
+                    <MoreBtn />
+                </div>
         </article>
      );
 }
