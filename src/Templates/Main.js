@@ -1,3 +1,4 @@
+import "./Main.css"
 import Headline from "../Components/Headline";
 import Card from "./Card";
 

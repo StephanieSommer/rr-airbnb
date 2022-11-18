@@ -1,10 +1,10 @@
 import { Link } from "react-router-dom";
-import "./MoreBtn.js"
+import "./MoreBtn.css"
 
 
 const MoreBtn = () => {
     return ( 
-        <Link title="morebtn">More</Link>
+        <Link className="MoreBtn" title="morebtn">More</Link>
      );
 }
  
