@@ -6,11 +6,12 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Main from './Templates/Main';
 
 
-const myRouter = createBrowserRouter(
+export const myRouter = createBrowserRouter(
   createRoutesFromElements(
     <Route>
       <Route path='/' element={<App />} />
       <Route path='/main' element={<Main />} />
+      <Route path='*' element={<NotFound />} />
     </Route>
   )
 )
